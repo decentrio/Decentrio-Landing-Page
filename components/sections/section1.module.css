@@ -1,0 +1,39 @@
+.section1-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section1-left {
+    width: 50vw;
+}
+
+.section1-right {
+    width: 50vw;
+    position: relative;
+}
+
+.section1-left h1 {
+    font-size: 60px;
+}
+    
+.section1-left div {
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.section1-left button {
+    height: 60px;
+    width: 250px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.image-container {
+    position: relative;
+}

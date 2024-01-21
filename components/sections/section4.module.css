@@ -1,0 +1,36 @@
+.section4-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .section4-container h1 {
+    font-size: 60px;
+    margin: 20px;
+  }
+  
+  .section4-container .description {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  
+  .section4-items {
+    display: grid;
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin: 50px 33px;
+  }
+  
+  .section4-details {
+    border: 1.5px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+  }

@@ -1,0 +1,49 @@
+.section2-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section2-container h1 {
+  font-size: 60px;
+  margin: 20px;
+}
+
+.section2-container .description {
+  line-height: 30px;
+  font-size: 20px;
+  margin: 40px;
+}
+
+.section2-items {
+  display: flex;
+  gap: 20px;
+}
+
+.section2-details {
+  border: 1.5px solid black;
+  height: 390px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.section2-details > :nth-child(2) {
+    margin: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.section2-details > :nth-child(3) {
+    font-size: 14px;
+    line-height: 21px;
+    text-align: left;
+}
