@@ -1,5 +1,6 @@
 .section5-container {
-  height: 100vh;
+  margin-top: 200px;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -27,8 +28,8 @@
   text-align: left;
 }
 
-.section5-details >:nth-child(1) {
-    border: 1px solid black;
+.section5-details > :nth-child(1) {
+  border: 1px solid black;
 }
 
 .section5-details > :nth-child(2) {
@@ -37,7 +38,7 @@
   font-size: 20px;
 }
 .section5-details > :nth-child(3) {
-  font-size: 14px;
+  font-size: 16px;
   margin-left: 10px;
 }
 
@@ -49,6 +50,6 @@
 }
 
 .section5-details > :nth-child(4) > a > img {
-  height: 14px;
-  margin: 10px 5px;
+  height: 20px;
+  margin: 10px 8px;
 }

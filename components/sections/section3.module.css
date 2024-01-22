@@ -1,11 +1,11 @@
 .section3-container {
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 200px;
   }
   
   .section3-container h1 {

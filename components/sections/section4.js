@@ -29,7 +29,7 @@ const Section4 = () => {
     },
   ];
   return (
-    <div className={style["section4-container"]}>
+    <div id="staking" className={style["section4-container"]}>
       <h1>Stake With Us</h1>
       <div className={style["description"]}>
         We partner with chains across the ecosystem and work together to

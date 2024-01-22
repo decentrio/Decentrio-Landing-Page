@@ -47,7 +47,7 @@ const Section5 = () => {
     },
   ];
   return (
-    <div className={style["section5-container"]}>
+    <div id="team" className={style["section5-container"]}>
       <h1>Meet Our Team</h1>
       <div className={style["section5-items"]}>
         {Content.map((content) => {

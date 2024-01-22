@@ -1,47 +1,60 @@
 .section6-container {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .section6-container h1 {
-    font-size: 60px;
-    margin: 20px;
-  }
-
-  .section6-container button {
-    margin-top: 30px;
-    height: 60px;
-    width: 250px;
-    color: white;
-    background-color: black;
-    border: none;
-    border-radius: 10px;
-    font-size: 20px;
-    font-weight: 700;
+  margin-top: 200px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
-  .form {
-    width: 50vw;
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    gap: 20px;
-    font-size: 20px;
-  }
 
-  .form textarea {
-    height: 250px;
+.section6-container h1 {
+  font-size: 60px;
+  margin: 20px;
+}
 
-  }
+.form {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.form select {
+    cursor: pointer;
+}
+
+.form select option {
+    margin-top: 20px;
+    font-size: 50px !important;
+    padding: 20px;
+}
+
+.form textarea {
+  height: 250px;
+}
+
+.form > :nth-child(2) {
+  padding: 10px;
+  height: 50px;
+}
+.form > :nth-child(4) {
+  height: 50px;
+}
+
+.form > button {
+  align-self: center;
+  cursor: pointer;
+  height: 60px;
+  width: 250px;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
 
 
-  .form >:nth-child(2) {
-    padding: 10px;
-    height: 50px;
-  }
-  .form >:nth-child(4) {
-    height: 50px;
-  }

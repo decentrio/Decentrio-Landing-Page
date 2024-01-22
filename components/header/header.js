@@ -8,27 +8,34 @@ import styles from "./header.module.css";
 const navButton = [
   {
     text: "ABOUT US",
-    path: "#how-it-works",
+    path: "#about",
   },
   {
-    text: "PROẸCTS",
+    text: "PROJECTS",
     path: "#project",
   },
   {
     text: "STAKING",
-    path: "#github",
+    path: "#staking",
   },
   {
     text: "TEAM",
-    path: "#github",
+    path: "#team",
   },
   {
     text: "CONTACT",
-    path: "#github",
+    path: "#contact",
   },
 ];
 
 const Header = ({ currentPath }) => {
+    const scrollToView = (path) => {
+        const element = document.querySelector(path);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      };
+    
     return (
       <Navbar expand="md">
         <div className={styles["header-container"]}>
@@ -43,6 +50,7 @@ const Header = ({ currentPath }) => {
               <Link
                 key={index}
                 href={button.path}
+                onClick={() => scrollToView(button.path)}
                 style={{
                   color: currentPath === button.text && "#262626",
                   marginRight: '20px',

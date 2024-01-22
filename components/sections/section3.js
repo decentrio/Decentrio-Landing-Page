@@ -35,13 +35,13 @@ const Section3 = () => {
     },
     {
       image: Alert,
-      title: "Emergencies Respond",
+      title: "Emergency Response",
       description:
         "We have our team members on a rotate shifts to stay online 24/7 to ensure fast respond time when there is a critical incidents.",
     },
   ];
   return (
-    <div className={style["section3-container"]}>
+    <div id="project" className={style["section3-container"]}>
       <h1>How Decentrio Empowers Your Business?</h1>
       <div className={style["description"]}>
         Whether you need infrastructure support, blockchain engineering, or

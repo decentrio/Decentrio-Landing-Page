@@ -15,7 +15,7 @@ const Section2 = () => {
     },
     {
       image: Rocket,
-      title: "Fast respond time",
+      title: "Fast response time",
       description:
         "Regardless of your geographical location or time zone, our unwavering dedication to superior service is evident. Operating on dedicated rotating shifts 24/7, our team ensures that customers, no matter where they are, receive the fastest response times possible.",
     },
@@ -27,8 +27,8 @@ const Section2 = () => {
     },
   ];
   return (
-    <div className={style["section2-container"]}>
-      <h1>Why Should You Chose Us?</h1>
+    <div id="about" className={style["section2-container"]}>
+      <h1>Why Should You Choose Us?</h1>
       <div className={style["description"]}>
         Neque porro quisquam est qui dolorem ipsum quia dolor sit amet,
         consectetur, adipisci velit..." "There is no one who loves pain itself,
